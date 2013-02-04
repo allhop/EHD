@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">Download All Links</string>
+    <string name="app_package">com.nova.download.all</string> <!-- Made manually; this might not stay up to date... just as long as it stays consistent. -->
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_manager">URL Manager</string>
+    <string name="emptyDownloadStats">(download statistics here)</string>
+    <string name="site_item_site_name_default">Site name</string>
+    <string name="site_item_site_statistics_default">no information yet</string>
+    <string name="title_activity_edit">Edit Site</string>
+    <string name="title_activity_single_download">Current Download</string>
+    
+    <!--  Download filters, for use with a download site. -->
+    <string-array name="download_filters">
+        <item>None</item>
+        <item>Images ([^\\s]+(\\.(?i)(bmp|gif|jpg|png|psd|pspimage|tga|tif))$)</item>
+        <item>Videos ([^\\s]+(\\.(?i)(3g2|3gp|asf|asx|avi|flv|mov|mp4|mpg|rm|srt|swf|vob|wmv))$)</item>
+        <item>Compressed files ([^\\s]+(\\.(?i)(7z|cbr|deb|gz|pkg|rar|rpm|sit|sitx|tar.gz|zip|zipx))$)</item>
+        <item>Text files ([^\\s]+(\\.(?i)(doc|docx|log|msg|odt|pages|rtf|tex|txt|wpd|wps))$)</item>
+        <item>Programs ([^\\s]+(\\.(?i)(app|bat|cgi|com|exe|gadget|jar|pif|vb|wsf))$)</item>
+    </string-array>
+    
+    
+    <string name="button_add">Add</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="lbl_name">Name</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="lbl_what_to_download">What to download</string>
+    <string name="lbl_site_url">Site URL</string>
+    <string name="lbl_url">URL</string>
+    <string name="lbl_site_name">Site name (optional)</string>
+    <string name="chk_scape_links">Scrape Links</string>
+    <string name="chk_scrape_images">Scrape Images</string>
+    <string name="site_url">URL goes here</string>
+    <string name="lbl_download_folder">Download into Subfolder</string>
+    <string name="txt_download_folder_hint">Folder name (optional)</string>
+    <string name="txt_download_regex_hint">RegEx (optional, advanced)</string>
+    
+    <!--  All of these are text areas shown a single download item. -->
+    <string name="lbl_item_name">Item name (last part of URL)</string>
+    <string name="lbl_item_descr">Site\'s Description</string>
+    <string name="lbl_item_url">Download item\'s actual url (http://…)</string>
+    <string name="lbl_download_item">Item name</string>
+    <string name="lbl_item_folder_description">"Folder: "</string>
+    <string name="lbl_item_folder">Folder\'s name goes here</string>
+    
+    <string name="mnu_remove_all">Remove All</string>
+    <string name="mnu_remove_all_condensed">Rm. All</string>
+	<string name="menu_queue">Show Queue</string>
+</resources>

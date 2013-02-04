@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add" android:title="Add URL..." android:titleCondensed="Add..."></item>
+    <item android:id="@+id/menu_show_queue" android:title="Show Queue" android:titleCondensed="Queue"></item>
+    
+    
+        <!-- no more settings needed -->
+    <!--  item android:id="@+id/menu_settings" android:title="Settings" android:orderInCategory="100" android:showAsAction="never" / -->
+    
+</menu>
